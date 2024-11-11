@@ -6,8 +6,6 @@ import MoneyImg from "./../../../../public/money.png";
 import ResponsiveImg from "./../../../../public/responsive.png";
 import SeoImg from "./../../../../public/seo.png";
 import SpeedometerImg from "./../../../../public/speedometer.png";
-import { Button } from "@/components/Button";
-import Link from "next/link";
 
 export const OurFocus = () => {
     return (
