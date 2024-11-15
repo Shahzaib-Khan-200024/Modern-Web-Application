@@ -70,35 +70,35 @@ export const Navigation = () => {
                         <nav className="flex flex-col space-y-4 p-8">
                             <Link
                                 href="#"
-                                className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                                className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                                 onClick={closeMenu}
                             >
                                 Home
                             </Link>
                             <Link
                                 href="#OurFocus"
-                                className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                                className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                                 onClick={closeMenu}
                             >
                                 OurFocus
                             </Link>
                             <Link
                                 href="#OurWork"
-                                className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                                className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                                 onClick={closeMenu}
                             >
                                 OurWork
                             </Link>
                             <Link
                                 href="#FAQ"
-                                className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                                className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                                 onClick={closeMenu}
                             >
                                 FAQ
                             </Link>
                             <Link
                                 href="#OurProcess"
-                                className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                                className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                                 onClick={closeMenu}
                             >
                                 OurProcess
@@ -109,31 +109,31 @@ export const Navigation = () => {
                     <nav className="hidden lg:flex lg:space-x-6 lg:items-center">
                         <Link
                             href="#"
-                            className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                            className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                         >
                             Home
                         </Link>
                         <Link
                             href="#OurFocus"
-                            className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                            className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                         >
                             OurFocus
                         </Link>
                         <Link
                             href="#OurWork"
-                            className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                            className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                         >
                             OurWork
                         </Link>
                         <Link
                             href="#FAQ"
-                            className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                            className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                         >
                             FAQ
                         </Link>
                         <Link
                             href="#OurProcess"
-                            className="text-white hover:text-gray-500 transition duration-300 ease-in-out"
+                            className="text-white text-xl hover:text-gray-500 transition duration-300 ease-in-out"
                         >
                             OurProcess
                         </Link>
