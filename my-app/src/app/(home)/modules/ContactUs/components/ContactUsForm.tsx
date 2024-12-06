@@ -6,30 +6,52 @@ import React, { useActionState } from "react";
 import { useFormStatus } from "react-dom";
 
 export const ContactUsForm = () => {
-const [state, formAction] = useActionState(sendMessage, {
-    message: "",
-})
+    const [state, formAction] = useActionState(sendMessage, {
+        message: "",
+    });
 
     return (
-        <form action={formAction} className="p-8 text-white space-y-4 rounded-lg">
+        <form
+            action={formAction}
+            className="bg-white p-8 text-black space-y-4 rounded-lg border border-black"
+        >
             <div className="space-y-2">
                 <p className="font-bold">Name</p>
-                <input name="name" type="text" required className="w-full p-3 bg-black rounded-lg text-white" />
+                <input
+                    name="name"
+                    type="text"
+                    required
+                    className="w-full p-3 bg-lightGray border border-black rounded-lg text-black"
+                />
             </div>
 
             <div className="space-y-2">
                 <p className="font-bold">Company</p>
-                <input name="company" type="text" required className="w-full p-3 bg-black rounded-lg text-white" />
+                <input
+                    name="company"
+                    type="text"
+                    required
+                    className="w-full p-3 bg-lightGray border border-black rounded-lg text-black"
+                />
             </div>
 
             <div className="space-y-2">
                 <p className="font-bold">Email</p>
-                <input name="email" type="email" required className="w-full p-3 bg-black rounded-lg text-white" />
+                <input
+                    name="email"
+                    type="email"
+                    required
+                    className="w-full p-3 bg-lightGray border border-black rounded-lg text-black"
+                />
             </div>
 
             <div className="space-y-2">
                 <p className="font-bold">Message</p>
-                <textarea name="message" required className="w-full p-3 bg-black rounded-lg text-white" />
+                <textarea
+                    name="message"
+                    required
+                    className="w-full p-3 bg-lightGray border border-black rounded-lg text-black"
+                />
             </div>
             {state.message && (
                 <p aria-live="polite" className="not-sr-only">{state.message}</p>
