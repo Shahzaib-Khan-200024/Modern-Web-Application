@@ -13,6 +13,11 @@ const config: Config = {
         green: "#43de78",
         lightGray: "#f5f6fc",
       },
+      maxHeight: {
+        "0": "0",
+        "screen": "100vh", // Default
+        "custom": "1000px", // Custom max height for smooth animation
+      },
     },
   },
   plugins: [],
