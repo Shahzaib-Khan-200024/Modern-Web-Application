@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 
-export const sendMessage = async (prevState: {message: string}, formData: FormData) => {
+export const sendMessage = async (_prevState: {message: string}, formData: FormData) => {
     const schema = z.object({
         name: z.string().min(1),
         company: z.string().min(1),
@@ -23,7 +23,7 @@ export const sendMessage = async (prevState: {message: string}, formData: FormDa
         };
     }
 
-    const { name, company, email, message } = parse.data;
+    // const { name, company, email, message } = parse.data;
 
     try {
         await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -31,7 +31,7 @@ export const sendMessage = async (prevState: {message: string}, formData: FormDa
         return {
             message: "Message sent successfully.",
         }
-    } catch (e) {
+    } catch {
         return {
             message: "Something went wrong.",
         };

@@ -19,7 +19,7 @@ export const OurFocus = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    {features.map((feature, index) => (
+                    {features.map((feature) => (
                         <div
                             key={feature.description}
                             className="bg-white py-4 px-4 rounded-lg shadow-sm transform transition-transform duration-300 hover:shadow-lg hover:scale-105"
